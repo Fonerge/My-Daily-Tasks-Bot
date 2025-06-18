@@ -10,7 +10,7 @@ import threading
 import os
 from apscheduler.jobstores.base import JobLookupError 
 
-API_TOKEN = os.getenv(BOT_API_KEY)
+API_TOKEN = os.getenv("BOT_API_KEY")
 DB_NAME = 'my_daily_tasks_bot.db'
 TIMEZONE_STR = 'Europe/Istanbul'
 TIMEZONE = pytz.timezone(TIMEZONE_STR)
